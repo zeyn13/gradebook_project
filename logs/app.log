@@ -1,0 +1,22 @@
+2026-04-02 12:11:26,764 - INFO - Data file not found. Starting with empty data.
+2026-04-02 12:11:33,685 - INFO - Data file not found. Starting with empty data.
+2026-04-02 12:11:38,230 - INFO - Data file not found. Starting with empty data.
+2026-04-02 12:11:43,091 - INFO - Data file not found. Starting with empty data.
+2026-04-02 12:11:43,092 - INFO - Data saved successfully to data/gradebook.json
+2026-04-02 12:11:48,366 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 12:11:48,366 - INFO - Data saved successfully to data/gradebook.json
+2026-04-02 12:11:53,642 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 12:11:53,642 - ERROR - Application error: Course not found.
+2026-04-02 12:12:04,292 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 12:12:04,292 - ERROR - Application error: Enrollment not found.
+2026-04-02 12:12:09,022 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 12:12:09,023 - ERROR - Application error: Enrollment not found.
+2026-04-02 12:12:14,543 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 12:12:14,543 - ERROR - Application error: Student has no enrollments.
+2026-04-02 12:14:01,294 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 12:14:06,950 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 12:14:12,256 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 12:14:18,549 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 12:14:22,700 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 13:35:47,043 - INFO - Data loaded successfully from data/gradebook.json
+2026-04-02 13:49:15,228 - INFO - Data loaded successfully from data/gradebook.json
