@@ -148,6 +148,15 @@ python3 main.py gpa --student-id 1
 
 ---
 
+## Usage Notes
+
+- Run `python3 scripts/seed.py` before trying the sample CLI commands.
+- Application data is stored in `data/gradebook.json`.
+- Logs are written to `logs/app.log`.
+- The project is intended for small-scale CLI usage.
+
+---
+
 ## Running Tests
 
 ```bash
@@ -190,6 +199,7 @@ Average: 85.00
 
 Student GPA:
 GPA: 85.00
+```
 
 ---
 

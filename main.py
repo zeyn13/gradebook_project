@@ -35,6 +35,40 @@ def parse_grade(value):
     return grade
 
 
+def print_students(items):
+    """Print students in a readable format."""
+    if not items:
+        print("No students found.")
+        return
+
+    for student in items:
+        print(f"ID: {student['id']} | Name: {student['name']}")
+
+
+def print_courses(items):
+    """Print courses in a readable format."""
+    if not items:
+        print("No courses found.")
+        return
+
+    for course in items:
+        print(f"Code: {course['code']} | Title: {course['title']}")
+
+
+def print_enrollments(items):
+    """Print enrollments in a readable format."""
+    if not items:
+        print("No enrollments found.")
+        return
+
+    for enrollment in items:
+        print(
+            f"Student ID: {enrollment['student_id']} | "
+            f"Course: {enrollment['course_code']} | "
+            f"Grades: {enrollment['grades']}"
+        )
+
+
 def main():
     """Run the Gradebook CLI application."""
     parser = argparse.ArgumentParser(description="Gradebook CLI")
@@ -95,13 +129,13 @@ def main():
         elif args.command == "list":
             if args.target == "students":
                 items = list_students(data, args.sort or "name")
+                print_students(items)
             elif args.target == "courses":
                 items = list_courses(data, args.sort or "code")
+                print_courses(items)
             else:
                 items = list_enrollments(data)
-
-            for item in items:
-                print(item)
+                print_enrollments(items)
 
         elif args.command == "avg":
             result = compute_average(data, args.student_id, args.course)
