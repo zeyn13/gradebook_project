@@ -174,18 +174,6 @@ python3 -m unittest discover tests
 
 ---
 
-## Deliverable
-
-The final deliverable includes:
-
-- source code
-- README
-- sample data
-- tests
-- GitHub repository link
-
----
-
 ## Expected Output Examples
 
 ```text
